@@ -2,21 +2,33 @@ DECENTRABET
 Application de paris en ligne decentralisée.
 
 To-do list
+
 |x| Créer un github pour le projet
 
 |x| Commenter le smartContrat en natspec
 
 |x| Corriger les failes de sécurité.
+
 |x| Optimisation du contrat.
+
    Realiser le front en React
+   
    Créer les composants de l'administrateur
+   
    Créer les composants des parieurs
-   Afficher les compostant des parieurs  
+   
+   Afficher les compostant des parieurs
+   
    Afficher les compostant de l'administreur
+   
  Travaille l'esthétique du front
+ 
  Faire une video de presentation de l'applicaiton de 5 mins sur ganache
+ 
  Deployer l'application sur un réseau de test
+ 
  Faire un readme contenenant un lien vers l'application deploiyé et la video
+ 
 Installation
 First ensure you are in an empty directory.
 
