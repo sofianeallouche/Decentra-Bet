@@ -2,9 +2,7 @@ DECENTRABET
 Application de paris en ligne decentralisée.
 
 To-do list
-
 |x| Créer un github pour le projet
-
 |x| Commenter le smartContrat en natspec
 
 |x| Corriger les failes de sécurité.
