@@ -1,3 +1,55 @@
+DECENTRABET
+Application de paris en ligne decentralisée.
+
+To-do list
+|x| Créer un github pour le projet
+|x| Commenter le smartContrat en natspec
+|x| Corriger les failes de sécurité.
+|x| Optimisation du contrat.
+   Realiser le front en React
+   Créer les composants de l'administrateur
+   Créer les composants des parieurs
+   Afficher les compostant des parieurs  
+   Afficher les compostant de l'administreur
+ Travaille l'esthétique du front
+ Faire une video de presentation de l'applicaiton de 5 mins sur ganache
+ Deployer l'application sur un réseau de test
+ Faire un readme contenenant un lien vers l'application deploiyé et la video
+Installation
+First ensure you are in an empty directory.
+
+# Install depedencies
+$ cd truffle
+$ npm install
+$ cd ..
+Start ganach.
+
+# lanch ganache in a new terminal
+$ ganache
+Start the react dev server.
+
+$ cd client
+$ npm install
+$ npm start
+From there, follow the instructions on the hosted React app. It will walk you through using Truffle and Ganache to deploy the Voting contract, making calls to it, and sending transactions to change the contract's state.
+
+Video
+
+
+le lien vers vercel
+
+
+
+
+
+
+
+
+
+
+
+
+
 # React Truffle Box
 
 This box comes with everything you need to start using Truffle to write, compile, test, and deploy smart contracts, and interact with them from a React app.
