@@ -65,7 +65,7 @@ contract DecentraBet {
         odds[newBetId]=_odds;
 
         //event BetPlaced est emis 
-        emit BetPlaced(newBetId, msg.sender,msg.value);
+        emit BetPlaced(newBetId, msg.sender, msg.value);
     }
 
     //fonction permettant de définir le resultat d'un paris 
@@ -93,7 +93,8 @@ contract DecentraBet {
         //on verifie le montant si <0 on envoie le message d erreur 
         require(amount > 0, "Aucun fonds disponibles pour le retrait");
         
-        //on met la balance du parrieur à 0 dans le mapping 
+        //on met la balance du parrieur à 0 dans le mapping et se premunir des attaks reentrancy
+        //en mettant la balance du msg.sender à 0 avant le call et arréter la boucle.
         balances[msg.sender] = 0;
         
         //envoie du montant au msg.sender
@@ -105,9 +106,6 @@ contract DecentraBet {
         //on emet l'evenement BetResult
         emit BetResult(0, false, true);
 }
-
-
-
 
     }
  
