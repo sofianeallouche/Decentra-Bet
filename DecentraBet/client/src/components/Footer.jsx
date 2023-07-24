@@ -4,13 +4,17 @@ function Link({ uri, text }) {
 
 function Footer() {
   return (
-    <footer>
-      <h2>More resources</h2>
-      <Link uri={"https://trufflesuite.com"} text={"Truffle"} />
-      <Link uri={"https://reactjs.org"} text={"React"} />
-      <Link uri={"https://soliditylang.org"} text={"Solidity"} />
-      <Link uri={"https://ethereum.org"} text={"Ethereum"} />
+    <div>
+      
+      <h2 className ="text-dark">Plus de ressources</h2>
+      
+    <footer className="d-flex bg-info  ">
+      <Link uri={""} text={"Bonus"} />
+      <Link uri={""} text={"Aide"} />
+      <Link uri={""} text={"A propos de nous "} />
+      <Link uri={""} text={"conditions du site"} />
     </footer >
+    </div>
   );
 }
 
