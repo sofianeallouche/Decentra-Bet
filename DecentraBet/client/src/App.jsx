@@ -7,8 +7,8 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <EthProvider>
-      <div id="App">
-        <div className="container">
+      <div id="App" >
+        <div className="container bg-light ">
           <Intro />
           <hr />
           <Setup />

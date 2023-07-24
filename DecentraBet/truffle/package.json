@@ -1,5 +1,5 @@
 {
-  "name": "truffle-project",
+  "name": "decentra-bet",
   "version": "0.1.0",
   "description": "Truffle project with SimpleStorage contract",
   "scripts": {
@@ -7,6 +7,14 @@
   },
   "dependencies": {
     "@openzeppelin/test-helpers": "^0.5.16",
-    "@truffle/hdwallet-provider": "^2.1.7"
-  }
+    "@truffle/hdwallet-provider": "^2.1.7",
+    "dotenv": "^16.3.1"
+  },
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }
